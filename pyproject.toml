@@ -3,7 +3,7 @@ name = "pylatesttrends"
 version = "0.1.0"
 description = "Get the latest trends from Google Trends"
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.9"
 license = { text = "GPLv3" }
 authors = [
     { name = "Farasat Ali", email = "63093876+faraasat@users.noreply.github.com" },
