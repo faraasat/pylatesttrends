@@ -30,7 +30,7 @@ jobs:
       - name: Extract version from __init__.py
         id: get_version
         run: |
-          version=$(grep "__version__" pylatesttrends/__init__.py | cut -d '"' -f2)
+          version=$(grep "__version__" pylatesttrends/src/pylatesttrends/__init__.py | cut -d '"' -f2)
           echo "version=$version" >> $GITHUB_OUTPUT
 
       - name: Create Git tag
