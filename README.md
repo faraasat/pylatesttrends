@@ -143,6 +143,7 @@ The result returned from `get_trends()` is a pandas DataFrame containing:
 - Python 3.9+
 - Selenium
 - Pandas
+- Webdriver Manager
 
 (Dependencies are installed automatically with pip.)
 

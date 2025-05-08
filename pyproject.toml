@@ -1,6 +1,6 @@
 [project]
 name = "pylatesttrends"
-version = "0.1.5"
+version = "0.1.6"
 description = "Get the latest trends from Google Trends"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -8,7 +8,7 @@ license = { text = "GPLv3" }
 authors = [
     { name = "Farasat Ali", email = "63093876+faraasat@users.noreply.github.com" },
 ]
-dependencies = ["selenium", "pandas"]
+dependencies = ["selenium", "pandas", "webdriver_manager"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
