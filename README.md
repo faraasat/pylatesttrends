@@ -124,12 +124,12 @@ result = get_trends(payload, "print")  # or use "logging"
 
 The result returned from `get_trends()` is a pandas DataFrame containing:
 
-- Trends: trend name
-- Search volume: volume of the search
-- Started: trend start time
-- Ended: trend end time
-- Trend breakdown: searches
-- Explore link: trend explore link
+- **Trends:** trend name
+- **Search volume:** volume of the search
+- **Started:** trend start time
+- **Ended:** trend end time
+- **Trend breakdown:** searches
+- **Explore link:** trend explore link
 
 ## Use Cases
 
@@ -151,10 +151,10 @@ The result returned from `get_trends()` is a pandas DataFrame containing:
 ```python
 payload = generate_payload("US", category="Technology", start_trending="24h")
 df = get_trends(payload, "logging")
-print(df[['title', 'traffic', 'article_url']])
+print(df[['Trends', 'Search volume', 'Explore link']])
 ```
 
-### Links
+## Links
 
 - [📦 PyPI Package](https://pypi.org/project/pylatesttrends/)
 - [🧑‍💻 GitHub Repository](https://github.com/faraasat/pylatesttrends)
