@@ -11,7 +11,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from typing import Optional, Literal
 
-from data import (
+from .data import (
     valid_countries_iso,
     valid_start_trending,
     valid_category,
