@@ -115,7 +115,7 @@ class Website:
         return df
 
 
-async def get_trends(url: str, log: Optional[LogMethod] = None) -> pd.DataFrame:
+def get_trends(url: str, log: Optional[LogMethod] = None) -> pd.DataFrame:
     return Website(url, log).scrape_with_selenium()
 
 
